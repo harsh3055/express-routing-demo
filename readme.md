@@ -1,1 +1,2 @@
-this is about fetching data from a json file and trying different routing techique with express
+## this repo contains code on how to fetch data from a json file using express
+## and trying different routing techique with express
