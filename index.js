@@ -33,6 +33,9 @@ app.get('/rand', (req, res) => {
     const num = Math.floor(Math.random() * 10) + 1;
     res.render('random', { num })
 })
+app.get('/nothing',(req,res)=>{
+    res.render('nothing')
+})
 // listening on the port number on the local host
 app.listen(3000, () => {
     console.log("LISTENING ON PORT 3000")
